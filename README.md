@@ -108,7 +108,3 @@ To install TensorFlow with GPU support, simply run
 ```
 $ conda install -c anaconda tensorflow-gpu 
 ```
-
-------
-
-### Reference
