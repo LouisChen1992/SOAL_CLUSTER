@@ -10,7 +10,9 @@ Table of Contents
 - [SOAL Cluster](#soal-cluster)
 - [Anaconda](#anaconda)
 - [TensorFlow](#tensorflow)
+
 ------
+
 ### GitHub Account
 GitHub is a web-based Git or version control repository and Internet hosting service. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features. It provides access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every project. 
 
@@ -73,7 +75,9 @@ Fetch and merge any commits from the tracking remote branch
 ```
 $ git pull
 ```
+
 ------
+
 ### SOAL Cluster
 The cluster has one node (hostname: soal-1.stanford.edu) with 8 Titan X GPUs, 64 CPU ocres and 0.75 TB RAM. Please first ask Sharad Goel to help create an account for you. 
 
@@ -81,12 +85,29 @@ To login, you first need to connect to the Stanford VPN. Please follow the instr
 ```
 $ ssh [SUNetID]@soal-1.stanford.edu
 ```
+
 ------
+
 ### Anaconda
+Since the account type is not Administrator, it is easy to set up a local environment using [Anaconda](https://docs.anaconda.com/anaconda/). Anaconda is a package manager, an environment manager, a Python distribution, and a collection of over 1,000+ open source packages. It is free and easy to install. 
+
+1. Download the Anaconda installer for Linux. 
+```
+$ wget https://repo.continuum.io/archive/Anaconda3-5.0.0-Linux-x86_64.sh
+```
+2. Install Anaconda for Python3.6
+```
+$ bash Anaconda3-5.0.0-Linux-x86_64.sh
+```
+The installer prompts `Do you wish the installer to prepend the Anaconda<2 or 3> install location to PATH in your /home/<user>/.bashrc ?` Enter `Yes`. After the installer finishes, enter `source ~/.bashrc` for the installation to take effect. 
 
 ------
 
 ### TensorFlow
+To install TensorFlow with GPU support, simply run
+```
+$ conda install -c anaconda tensorflow-gpu 
+```
 
 ------
 
