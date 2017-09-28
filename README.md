@@ -10,7 +10,7 @@ Table of Contents
 - [SOAL Cluster](#soal-cluster)
 - [Anaconda](#anaconda)
 - [TensorFlow](#tensorflow)
-
+------
 ### GitHub Account
 GitHub is a web-based Git or version control repository and Internet hosting service. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features. It provides access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every project. 
 
@@ -73,13 +73,15 @@ Fetch and merge any commits from the tracking remote branch
 ```
 $ git pull
 ```
-
 ------
-
 ### SOAL Cluster
+The cluster has one node (hostname: soal-1.stanford.edu) with 8 Titan X GPUs, 64 CPU ocres and 0.75 TB RAM. Please first ask Sharad Goel to help create an account for you. 
 
+To login, you first need to connect to the Stanford VPN. Please follow the instructions [HERE](https://uit.stanford.edu/service/vpn). After connecting to the Stanford VPN, you can ssh into soal-[1-5].stanford.edu with your SUNet credentials. 
+```
+$ ssh [SUNetID]@soal-1.stanford.edu
+```
 ------
-
 ### Anaconda
 
 ------
