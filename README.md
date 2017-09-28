@@ -24,7 +24,7 @@ $ ssh [SUNetID]@soal-1.stanford.edu
 ------
 
 ### Anaconda
-Since the account type is not Administrator, it is easy to set up a local environment using [Anaconda](https://docs.anaconda.com/anaconda/). Anaconda is a package manager, an environment manager, a Python distribution, and a collection of over 1,000+ open source packages. It is free and easy to install. 
+Since the account type is not Administrator, it is better to set up a local environment using [Anaconda](https://docs.anaconda.com/anaconda/). Anaconda is a package manager, an environment manager, a Python distribution, and a collection of over 1,000+ open source packages. It is free and easy to install. 
 
 1. Download the Anaconda installer for Linux. 
 ```
