@@ -14,7 +14,7 @@ Table of Contents
 ------
 
 ### SOAL Cluster
-The cluster has one node (hostname: soal-1.stanford.edu) with 8 Titan X GPUs, 64 CPU ocres and 0.75 TB RAM. Please first ask Sharad Goel to help create an account for you. 
+The cluster has one node (hostname: soal-1.stanford.edu) with 8 Titan X GPUs, 64 CPU cores and 0.75 TB RAM. Please first ask Sharad Goel to help create an account for you. 
 
 To login, you first need to connect to the Stanford VPN. Please follow the instructions [HERE](https://uit.stanford.edu/service/vpn). After connecting to the Stanford VPN, you can ssh into soal-[1-5].stanford.edu with your SUNet credentials. 
 ```
