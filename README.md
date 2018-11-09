@@ -28,11 +28,11 @@ Since the account type is not Administrator, it is better to set up a local envi
 
 1. Download the Anaconda installer for Linux. 
 ```
-$ wget https://repo.continuum.io/archive/Anaconda3-5.0.0-Linux-x86_64.sh
+$ wget https://repo.anaconda.com/archive/Anaconda3-5.3.0-Linux-x86_64.sh
 ```
 2. Install Anaconda for Python3.6
 ```
-$ bash Anaconda3-5.0.0-Linux-x86_64.sh
+$ bash Anaconda3-5.3.0-Linux-x86_64.sh
 ```
 The installer prompts `Do you wish the installer to prepend the Anaconda<2 or 3> install location to PATH in your /home/<user>/.bashrc ?` Enter `Yes`. After the installer finishes, enter `source ~/.bashrc` for the installation to take effect. 
 
